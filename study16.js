@@ -3,4 +3,22 @@
 //------------------------------
 // 2. arrow function การประกาศฟังก์ชันโดยใช้ => (fat arrow)
 
+let aa = () => {
+    console.log('Hello')
+}
 
+let aaa = () => console.log('Hello')
+
+const bb = (x,y) => {
+    return x+y
+}
+
+const bbb = (x,y) => x+y
+
+const cc = (x) => console.log(x)
+const ccc = x => console.log(x)
+
+aa()
+aaa()
+console.log(bb(10,20))
+console.log(bbb(100,200))
